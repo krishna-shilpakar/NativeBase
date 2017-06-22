@@ -93,7 +93,7 @@ const DefaultTabBar = React.createClass({
     const tabUnderlineStyle = {
       position: "absolute",
       width: containerWidth / numberOfTabs,
-      height: 4,
+      height: variables.topTabBarActiveBorderWidth,
       backgroundColor: variables.topTabBarActiveBorderColor,
       bottom: 0
     };
